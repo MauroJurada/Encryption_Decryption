@@ -12,6 +12,24 @@ public class EncryptDecryptTest extends BaseStageTest {
     @Override
     public List<PredefinedIOTestCase> generate() {
         return List.of(
-            new PredefinedIOTestCase("", "dv ulfmw z givzhfiv!"));
+            new PredefinedIOTestCase(
+                "welcome to hyperskill\n" +
+                "5",
+                "bjqhtrj yt mdujwxpnqq"),
+
+            new PredefinedIOTestCase(
+                "treasure\n" +
+                    "10",
+                "dbokcebo"),
+
+            new PredefinedIOTestCase(
+                "qdvdqvrxqwxrxwpvrxspvxiqgdiqarairpbiqqid\n" +
+                    "12",
+                "cphpchdjcijdjibhdjebhjucspucmdmudbnuccup"),
+
+            new PredefinedIOTestCase(
+                "y\n" +
+                    "10",
+                "i"));
     }
 }
